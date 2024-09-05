@@ -1,0 +1,30 @@
+<odoo>
+    <template id="report_saleorder_document_inherit" inherit_id="sale.report_saleorder_document">
+        <xpath expr="//div[@class='page']" position="after">
+            <!-- Add your custom content here -->
+            <div class="custom_report_section">
+                
+		<table style="font-weight: bold;">
+			<tr style="font-weight: bold;">
+			 <td>
+				<span t-field="doc.company_id.city"/>, <span t-field="doc.date_order" t-options='{"format":"MM-dd-yyyy"}'/>
+			 </td>
+			</tr>
+			<tr>
+			 <td style="height:85px;">
+			 </td>
+			</tr>
+			<tr style="text-decoration: underline;">
+			 <td><span t-field="doc.user_id.name"/>
+			 </td>
+			</tr>
+			<tr>
+			 <td>Business Consultant
+			 </td>
+			</tr>
+		</table>	
+	     </div>
+        </xpath>
+    </template>
+</odoo>
+
