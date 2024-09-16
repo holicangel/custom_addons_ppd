@@ -49,12 +49,12 @@
                          <td style="height:85px;">
                          </td>
                         </tr>
-                        <tr style="text-decoration: underline;">
-                         <td><span t-field="o.user_id.name"/>
+                        <tr>
+                         <td><span t-field="o.user_id.name" style="text-decoration: underline;"/> <br/>Procurement
                          </td>
                         </tr>
                         <tr>
-                         <td>Procurement
+                         <td>
                          </td>
                         </tr>
                 </table>

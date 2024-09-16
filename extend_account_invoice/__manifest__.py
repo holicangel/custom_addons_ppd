@@ -7,6 +7,7 @@
     'author': 'handaru',
     'depends': ['account'],
     'data': [
+	'report/report_extend_invoice.xml',
         'views/account_move_view.xml',
     ],
     'installable': True,

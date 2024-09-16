@@ -14,12 +14,12 @@
 			 <td style="height:85px;">
 			 </td>
 			</tr>
-			<tr style="text-decoration: underline;">
-			 <td><span t-field="doc.user_id.name"/>
+			<tr>
+			 <td><span t-field="doc.user_id.name" style="text-decoration: underline;"/> <br/> Business Consultant
 			 </td>
 			</tr>
 			<tr>
-			 <td>Business Consultant
+			 <td>
 			 </td>
 			</tr>
 		</table>	
