@@ -37,27 +37,13 @@
 	<!-- add 'signature -->
 	<xpath expr="//div[@class='page']" position="after">
             <!-- Add your custom content here -->
-            <div class="custom_report_section">
+            <div class="custom_report_section" style="font-weight: bold;">
 
-                <table style="font-weight: bold;">
-                        <tr style="font-weight: bold;">
-                         <td>
-                                <span t-field="o.company_id.city"/>, <span t-field="o.date_order" t-options='{"format":"MM-dd-yyyy"}'/>
-                         </td>
-                        </tr>
-                        <tr>
-                         <td style="height:85px;">
-                         </td>
-                        </tr>
-                        <tr>
-                         <td><span t-field="o.user_id.name" style="text-decoration: underline;"/> <br/>Procurement
-                         </td>
-                        </tr>
-                        <tr>
-                         <td>
-                         </td>
-                        </tr>
-                </table>
+
+                                <span t-field="o.company_id.city"/>, <span t-field="o.date_order" t-options='{"format":"MMMM,dd yyyy"}'/>
+                                <br/><br/><br/><br/><br/><br/><br/>
+                                <span t-field="o.user_id.name" style="text-decoration: underline;"/> <br/>Procurement
+
              </div>
         </xpath>
 
